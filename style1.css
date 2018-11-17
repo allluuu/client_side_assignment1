@@ -5,6 +5,8 @@
     float:left;
     padding: 70px;
 }
+
+/* Canvs A */
 div #Canvas\ A{
 
     width: 100px;
@@ -16,6 +18,8 @@ div #Canvas\ A{
     border: 2px solid white;
     margin: 0;
 }
+
+/* For text in canvas A */
 .textA{
     position: absolute;
     color: white;
@@ -24,6 +28,8 @@ div #Canvas\ A{
     text-align: center;
     font-size: 20px;
 }
+
+/* Canvas B*/
 div #Canvas\ B{
 
     width: 100px;
@@ -36,6 +42,8 @@ div #Canvas\ B{
     border: 2px solid black;
     margin: 0;
 }
+
+/* Text canvas B*/
 .textB {
     position: absolute;
     color: black;
@@ -65,6 +73,7 @@ div #Canvas\ C{
     font-size: 20px;
 }
 
+/* Animate picute */
 div #Pic2{
     width: 100px;
     height: 100px;
@@ -81,6 +90,8 @@ div #Pic2{
 
 
 }
+
+/* animation "settings" */
 @keyframes Pic2 {
     from {background-color: red;}
     to {background-color: yellow;}
@@ -119,7 +130,7 @@ div #Canvas\ D{
     font-size: 30px;
 }
 
-
+/* Drop places for dragable picture */
 #div1 {
     float: left;
     width: 100px;

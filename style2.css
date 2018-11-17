@@ -41,16 +41,20 @@
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
 }
-
+/* for the whole page */
 html{
     font-family: "Lucida Sans", sans-serif;
 }
+
+/* Header */
 .header{
     background-color: black;
     color: #ffffff;
     padding: 0;
     text-align: center  ;
 }
+
+/* Sidenav */
 .sidenav ul {
     list-style-type: none;
     margin: 10px;
@@ -65,6 +69,8 @@ html{
 .sidenav li:hover{
     background-color: lightgrey;
 }
+
+/* Top navbar */
 .topnav {
     overflow: hidden;
     background-color: white;

@@ -5,7 +5,7 @@
     <title>Exercise1</title>
     <link rel="stylesheet" href="style1.css">
 
-
+    <!-- script for the drag and drop photo -->
     <script>
         function allowDrop(ev) {
             ev.preventDefault();
@@ -24,6 +24,8 @@
 
 </head>
 <body>
+
+<!--canvases -->
 <div class="row1">
     <div id="A">
         <canvas id="Canvas A" ></canvas>
@@ -42,6 +44,8 @@
     <div id="Pic2"></div>
 </div>
 
+<!-- dragable image and other canvas -->
+
 <div class="row2">
     <div id="kekkonen">
     <img src="kekkonen.jpg" draggable="true" ondragstart="drag(event)" id="drag1" width="100" height="100">
@@ -51,6 +55,8 @@
         <div class="textD">Text D</div>
     </div>
 </div>
+
+<!-- drag and drop areas -->
 
 <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 
